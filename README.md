@@ -14,9 +14,9 @@ and variables.
 The script then extracts the mean and standard deviation of each measurement into a new, smaller table.
 The subject and activity identifier columns are preserved entirely and extracted first. The script then
 uses a for loop to iterate across the variable columns. The "features.txt" file indicates that the mean
-and standard deviations of each measurement are recorded as separate variables marked by "mean()" and std(),
-respectively. The for loop then simply checks each variable's name for those strings, and copies the 
-appropriate variables into the new table.
+and standard deviations of each measurement are recorded as separate variables marked by "mean()" and
+"std()", respectively. The for loop then simply checks each variable's name for those strings, and copies
+the appropriate variables into the new table.
 
 ### 3. Uses descriptive activity names to name the activities in the data set.
 The "activity_labels.txt" file contains a table matching the numerical activity identifiers to a string label.
