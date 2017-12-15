@@ -1,5 +1,5 @@
-## Merges test and training data sets, merges them together, extracts the mean
-## and standard deviations of each measurement, then creates tidy data sets from
+## Merges test and training data sets  together, extracts the mean and
+## standard deviations of each measurement, then creates tidy data sets from
 ## the relevant measurements
 
 
